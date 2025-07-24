@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebGIS Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+    <div class="logo-title">
+        <img src="img/Unwim.png" alt="Logo" class="logo"> 
+        <h1>WebGIS</h1>
+    </div>
+
+        <nav>
+            <a href="#">Beranda</a>
+            <a href="#map">Peta</a>
+            <a href="#data">Data</a>
+            <a href="#Kontak">Kontak</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-text">
+            <h2>WebGIS Sebaran Sekolah Rawan Banjir DKI Jakarta</h2>
+            <p>Platform Informasi Sebaran Titik Rawan Banjir DKI Jakarta</p>
+        </div>
+        <div class="hero-image">
+            <img src="img/logo_jakarta.svg" alt="Hero Image">
+        </div>
+    </section>
+
+    <!-- MAP SECTION -->
+    <section class="map-wrapper">
+        <div class="map-controller">
+            <h3>Peta Persebaran Sekolah Rawan Banjir</h3>
+            <p>Jelajahi Peta Persebaran Sekolah Rawan Banjir di Dki Jakarta</p>
+        </div>
+        <div class="map-frame">
+            <div id="map"></div>
+        </div>
+    </section>
+
+    <!-- DATA SECTION -->
+    <section class="data-section">
+        <div class="data-box">
+            <h3>DKI Jakarta</h3>
+            <p>Daerah Khusus Ibukota (DKI) Jakarta adalah ibu kota negara Republik Indonesia sekaligus pusat pemerintahan, ekonomi, dan budaya yang terletak di pesisir utara Pulau Jawa. Jakarta memiliki luas wilayah sekitar 661,5 km², terdiri dari lima kota administratif dan satu kabupaten administratif. Kota ini merupakan kawasan metropolitan terbesar di Indonesia yang dikenal dengan tingkat urbanisasi yang sangat tinggi dan kepadatan penduduk yang masif. Secara geografis, DKI Jakarta didominasi oleh dataran rendah dengan ketinggian rata-rata hanya sekitar 7 meter di atas permukaan laut, menjadikannya sangat rentan terhadap bencana banjir, terutama di daerah yang dilintasi oleh sungai-sungai besar. Sebagai pusat aktivitas nasional, Jakarta berkembang pesat dengan infrastruktur modern, namun juga dihadapkan pada tantangan lingkungan, seperti penurunan muka tanah, alih fungsi lahan, dan tekanan terhadap daya dukung lingkungan.</p>
+        </div>
+        <div class="data-box">
+            <h3>Kepadatan Penduduk</h3>
+            <p>DKI Jakarta merupakan wilayah dengan tingkat kepadatan penduduk tertinggi di Indonesia. Dengan jumlah penduduk yang mencapai lebih dari 10 juta jiwa di area seluas sekitar 661,5 km², Jakarta memiliki kepadatan rata-rata lebih dari 15.000 jiwa per km². Kepadatan ini paling terlihat di kawasan-kawasan permukiman padat dan pusat-pusat aktivitas ekonomi, di mana ruang terbuka hijau semakin berkurang akibat tekanan kebutuhan lahan. Tingginya angka urbanisasi dan migrasi dari daerah lain turut mendorong peningkatan kepadatan penduduk secara signifikan setiap tahunnya, yang berdampak pada kemacetan, keterbatasan ruang, serta meningkatnya risiko bencana lingkungan seperti banjir.</p>
+        </div>
+        <div class="data-box">
+            <h3>Data Spasial</h3>
+            <p>Data spasial adalah bentuk data yang mencakup informasi tentang posisi atau lokasi suatu objek di dalam ruang. Dalam konteks ini, “spasial” merujuk pada dimensi tiga dari objek tersebut, yaitu panjang, lebar, dan tinggi. Data ini tidak hanya memberikan informasi tentang apa yang ada di suatu tempat, tetapi juga di mana objek tersebut berada.</p>
+            <section id="data" class="data-section">
+            </section>            
+        </div>
+    </section>
+
+    <!-- AUTHOR SECTION -->
+    <section class="author-section">
+        <div class="author-photo">
+            <img src="img/qia.png" alt="Author Photo">
+        </div>
+        <div class="author-info">
+            <h3>Shidqia Afifah W</h3>
+            <p>Mahasiswa Teknik Geodesi Universitas Winaya Mukti</p>
+            <p>Email: shidqiaafifahwydn@gmail.com</p>
+            <p>Telp:+62 856-2458-8623</p>
+            <p>Instagram: @sdqaffhw</p>
+            <section id="Kontak" class="author-section">
+            </section>
+            
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        &copy; 2025 WebGIS Dashboard. All Rights Reserved.
+    </footer>
+
+    <!-- JS Libraries -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
